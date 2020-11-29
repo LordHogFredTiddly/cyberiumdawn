@@ -179,6 +179,8 @@ Error message and password prompt
 
 <li>$:/.giffmex/ViewToolbar/new-note-here-datetime</li>
 
+<li>$:/config/AutoSave</li>
+
 <li>$:/config/DefaultSidebarTab</li>
 
 <li>$:/config/EditorTypeMappings/text/vnd.tiddlywiki</li>
@@ -416,6 +418,8 @@ Error message and password prompt
 <li>$:/state/toc/Contents-Ship-1637712383</li>
 
 <li>$:/state/toc/Contents-Ship-1843068618</li>
+
+<li>$:/state/toc/Cyberium Timeline-date-793201082</li>
 
 <li>$:/status/RequireReloadDueToPluginChange</li>
 
@@ -661,11 +665,31 @@ Error message and password prompt
 
 <li>$:/view</li>
 
-<li>2140 - Cyberium Used to Cure Animal of Previously Incurable Condition</li>
+<li>2140 - First Successful Animal Trial</li>
 
 <li>2140 - Invention of Cyberium</li>
 
 <li>2141 - Cyberium Human Trials Start</li>
+
+<li>2141 - First Incidence of Cyberium Rejection</li>
+
+<li>2145 - C.O.R.E Revealed</li>
+
+<li>2148 - Cyberium Reaches 95% Adoption</li>
+
+<li>2153 - First Burnout Incident</li>
+
+<li>2154 - World Government Cyberium Sanctions</li>
+
+<li>2168 - Noticeable Increase In Stillbirths</li>
+
+<li>2170 - Cyberium Reliance Research Begins</li>
+
+<li>2170 - Human Race Reliant on Cyberium</li>
+
+<li>2173 - Cyberium Reliance Solved</li>
+
+<li>Architects</li>
 
 <li>BackgroundImage</li>
 
@@ -685,15 +709,31 @@ Error message and password prompt
 
 <li>Contents</li>
 
+<li>CORE</li>
+
 <li>Cyberium</li>
+
+<li>Cyberium Junkie</li>
+
+<li>Cyberium Reliance</li>
 
 <li>Cyberium Timeline</li>
 
+<li>FENSEC</li>
+
 <li>Fenster Technologies</li>
 
-<li>New Tiddler</li>
+<li>Genetic Burnout</li>
+
+<li>Genetic Fatigue</li>
+
+<li>Greyson's Bank</li>
+
+<li>Henry Greyson</li>
 
 <li>Overview</li>
+
+<li>World Government</li>
 
 </ul>
 </p>
@@ -1120,6 +1160,9 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
 &lt;/$set&gt;
 &lt;/$set&gt;
 </pre>
+</div>
+<div created="20201129184353472" modified="20201129184353472" title="$:/config/AutoSave">
+<pre>no</pre>
 </div>
 <div created="20200713112825764" modified="20200713112825764" title="$:/config/DefaultSidebarTab">
 <pre>Contents</pre>
@@ -12701,8 +12744,8 @@ exports.context = contextWidget;
 <div created="20200712195055819" modified="20201129170622922" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Saving</pre>
 </div>
-<div created="20200713110146227" modified="20201129170624480" title="$:/state/tab-2065006209">
-<pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
+<div created="20200713110146227" modified="20201129184351963" title="$:/state/tab-2065006209">
+<pre>$:/core/ui/ControlPanel/Saving/General</pre>
 </div>
 <div created="20200713095020478" modified="20200714105549935" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/System</pre>
@@ -12734,7 +12777,7 @@ exports.context = contextWidget;
 <div created="20200713121016443" modified="20200714220246145" title="$:/state/toc/Contents-Character-1843068618">
 <pre>open</pre>
 </div>
-<div created="20201129170608060" modified="20201129170610351" title="$:/state/toc/Contents-Cyberium Timeline-1637712383">
+<div created="20201129170608060" modified="20201129202234177" title="$:/state/toc/Contents-Cyberium Timeline-1637712383">
 <pre>close</pre>
 </div>
 <div created="20200713122753608" modified="20200728205251219" title="$:/state/toc/Contents-Event-1637712383">
@@ -12800,10 +12843,13 @@ exports.context = contextWidget;
 <div created="20200721215939534" modified="20200721215939534" title="$:/state/toc/Contents-Ship-1843068618">
 <pre>open</pre>
 </div>
+<div created="20201129184658088" modified="20201129184659183" title="$:/state/toc/Cyberium Timeline-date-793201082">
+<pre>close</pre>
+</div>
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20201129165050148" list="[[New Tiddler]] [[Cyberium Timeline]] Overview Contents" modified="20201129183713317" title="$:/StoryList">
+<div created="20201129165050148" list="Overview Contents" modified="20201129204556995" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200519141000553" list="$:/.giffmex/Buttons/more-tiddler-edit-actions $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200521145647980" tags="$:/giffmex/bigeditarea $:/giffmex/stroll" title="$:/tags/EditToolbar">
@@ -12879,7 +12925,7 @@ exports.context = contextWidget;
     }
 }</pre>
 </div>
-<div created="20200713083540383" modified="20201129170024731" title="$:/temp/NewTagName">
+<div created="20200713083540383" modified="20201129202211008" title="$:/temp/NewTagName">
 <pre></pre>
 </div>
 <div author="Paco Rivière" core-version="&gt;=5.0.0" created="20200712195100918" dependents="" description="Catalan (Spain)" icon="data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22810%22%20height%3D%22540%22%3E%0A%3Crect%20width%3D%22810%22%20height%3D%22540%22%20fill%3D%22%23FCDD09%22%2F%3E%0A%3Cpath%20stroke%3D%22%23DA121A%22%20stroke-width%3D%2260%22%20d%3D%22M0%2C90H810m0%2C120H0m0%2C120H810m0%2C120H0%22%2F%3E%0A%3C%2Fsvg%3E" modified="20200712195100918" name="ca-ES" original-plugin-type="language" original-tags="" original-title="$:/languages/ca-ES" original-type="application/json" requires-reload="no" server-url="https://tiddlywiki.com/library/v5.1.22/index.html" tags="$:/tags/RemoteAssetInfo" title="$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.22/index.html/$:/languages/ca-ES" type="text/vnd.tiddlywiki" version="5.1.22">
@@ -13838,7 +13884,7 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div created="20200713095309047" modified="20200713095309047" tags="$:/tags/ServerConnection" title="$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.22/index.html" url="https://tiddlywiki.com/library/v5.1.22/index.html">
 <pre>loaded</pre>
 </div>
-<div created="20201129184228206" modified="20201129184336538" title="$:/temp/toc/selectedTiddler">
+<div created="20201129184228206" modified="20201129204643082" title="$:/temp/toc/selectedTiddler">
 <pre>2140 - Invention of Cyberium</pre>
 </div>
 <div created="20200713095343802" modified="20201031235544521" title="$:/theme">
@@ -13998,14 +14044,44 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div bag="default" created="20200127165334843" modified="20200521145813991" revision="0" tags="$:/giffmex/stroll" title="$:/view" type="text/vnd.tiddlywiki">
 <pre>classic</pre>
 </div>
-<div created="20201129165750315" date="2140_010" modified="20201129170428256" tags="[[Cyberium Timeline]]" title="2140 - Cyberium Used to Cure Animal of Previously Incurable Condition">
+<div created="20201129165750315" date="2140_09_12" modified="20201129202528529" tags="[[Cyberium Timeline]]" title="2140 - First Successful Animal Trial">
 <pre>A dog is cured of a complex genetic condition previously considered incurable. This kickstarts serious talks of human trials.</pre>
 </div>
-<div created="20201129165048374" date="2140_000" modified="20201129170415228" tags="[[Cyberium Timeline]]" title="2140 - Invention of Cyberium">
+<div created="20201129165048374" date="2140_06_10" modified="20201129202435830" tags="[[Cyberium Timeline]]" title="2140 - Invention of Cyberium">
 <pre>[[Fenster Technologies]] develops an advanced nano technology solution that binds nanites to DNA, Cybernetic Bio-Reactive Material or [[Cyberium]]. While immensely powerful, unique strains of Cyberium are required to match both the host and the desired genetic modifcation, making the long term viability of the technology questionable.</pre>
 </div>
-<div created="20201129170450887" date="2141_000" modified="20201129170600604" tags="[[Cyberium Timeline]]" title="2141 - Cyberium Human Trials Start">
+<div created="20201129170450887" date="2141_02_17" modified="20201129202617412" tags="[[Cyberium Timeline]]" title="2141 - Cyberium Human Trials Start">
 <pre>[[Cyberium]] starts to be used in human treatments. Initial results are very positive but the need for bespoke strains of Cyberium to be developed for each patient suggests that such procedures will be prohibitively expensive for all but the rich elite.</pre>
+</div>
+<div created="20201129202625650" date="2141_11_01" modified="20201129202805149" tags="[[Cyberium Timeline]]" title="2141 - First Incidence of Cyberium Rejection">
+<pre>[[Henry Greyson]] of [[Greyson's Bank]] looks to cure his luekemia using [[Cyberium]]. However, unexpected complications lead to rejection of the Cyberium strain used to treat Greyson. Instead of curing his luekemia the Cyberium accelerates the cancer and Greyson is pronounced dead within minutes of receiving treatment.</pre>
+</div>
+<div created="20201129202827590" date="2145_01_01" modified="20201129203256064" tags="[[Cyberium Timeline]]" title="2145 - C.O.R.E Revealed">
+<pre>[[Fenster Technologies]] calls an unexpected media event on New Year's Day 2145 to reveal their newest technology. Wilhelm Fenster has the first [[Cyberium Order Reassignment Element - C.O.R.E|CORE]], implanted during a live broadcast. He explains that the [[CORE]] was developed to eliminate the need for bespoke Cyberium strains for each host, instead letting the CORE reorder the Cyberium to perfectly suit the host. Not only does this, theoretically, completely remove the risk of rejection but also paves the way for the mass production of [[Cyberium]].</pre>
+</div>
+<div created="20201129203311038" date="2148_01_01" modified="20201129203419748" tags="[[Cyberium Timeline]]" title="2148 - Cyberium Reaches 95% Adoption">
+<pre>With the introduction of the [[CORE]], [[Cyberium]] becomes an almost overnight solution to many of the worlds problems. The treatments for life limiting conditions and terminal diseases are now both affordable and accessible.</pre>
+</div>
+<div created="20201129203434921" date="2153_12_24" modified="20201129203813434" tags="[[Cyberium Timeline]]" title="2153 - First Burnout Incident">
+<pre>A dank slum in Europe descends into utter chaos when a [[Cyberium Junkie]] goes on a feral spree of violence. They are taken down by local authorities but not before killing several and severely injuring dozens. The body is seized by [[Fenster Technologies Security Division|FENSEC]] and the post mortem shows that the body was exposed to excessive amounts of modification. The condition triggered by an excess of Cyberium modifcation is named [[Genetic Fatigue]]. If fatigue levels are not addressed the host will hit [[Genetic Burnout]] entering a state of uncontrollable feral rage.</pre>
+</div>
+<div created="20201129203639954" date="2154_02_14" modified="20201129203750903" tags="[[Cyberium Timeline]]" title="2154 - World Government Cyberium Sanctions">
+<pre>Following the [[Genetic Burnout]] incident, the [[World Government]] seeks to impose sanctions on [[Cyberium]] strains. They seize all existing Cyberium strain code and create a centralised and regulated database of whitelisted strains. An amnesty period of 12 months is instated for those using now illegal strains to relinquish use of them.</pre>
+</div>
+<div created="20201129203833688" date="2168_08_23" modified="20201129203933559" tags="[[Cyberium Timeline]]" title="2168 - Noticeable Increase In Stillbirths">
+<pre>A scientific report is published showing a worrying increase in the amount of stillbirths across the globe.</pre>
+</div>
+<div created="20201129204217492" date="2170_08_30" modified="20201129204402871" tags="[[Cyberium Timeline]]" title="2170 - Cyberium Reliance Research Begins">
+<pre>With the human race staring down the barrel of extinction frantic and urgent research and development into [[Cyberium Reliance]] is undertaken.</pre>
+</div>
+<div created="20201129203944252" date="2170_08_20" modified="20201129204205863" tags="[[Cyberium Timeline]]" title="2170 - Human Race Reliant on Cyberium">
+<pre>The annual scientific health report officially decalres that after decades of DNA alteration the base genes of the human race have become irreperably weak. So much so that carrying a child is nigh impossible. As blood does not travel between mother and child and [[Cyberium]] alteration is unable to prevent miscarriages.</pre>
+</div>
+<div created="20201129204419231" date="2173_05_01" modified="20201129204626107" tags="[[Cyberium Timeline]]" title="2173 - Cyberium Reliance Solved">
+<pre>After 3 long and worrying years [[Fenster Technologies]] finally discovers a solution to [[Cyberium Reliance]]. A technique in which a mother is injected with advanced nanites called [[Architects]] is developed. Once injected, Architects take advantage of their complex structure to pass from mother to embryo. After inhabiting the embryo Architects reform into a [[CORE]] directly within the growing child.</pre>
+</div>
+<div created="20201129204532570" modified="20201129204532570" title="Architects">
+<pre></pre>
 </div>
 <div _canonical_uri="https://www.worldanvil.com/uploads/images/294d06a55c9ff5fd80f0d1be9cb80cf3.png" created="20200713161815299" modified="20201101001003454" tags="" title="BackgroundImage" type="image/jpeg">
 <pre>[img[https://www.worldanvil.com/media/cache/cover/uploads/images/b8fb8522bba288311dff9bea2608f7a7.jpg]]</pre>
@@ -14036,28 +14112,44 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 &lt;&lt;toc-selective-expandable 'Contents' sort[title]&gt;&gt;
 &lt;/div&gt;</pre>
 </div>
+<div created="20201129203256067" modified="20201129203256067" title="CORE">
+<pre></pre>
+</div>
 <div created="20201129165215031" modified="20201129165215031" title="Cyberium">
 <pre></pre>
 </div>
-<div created="20201129164750313" modified="20201129170448129" tags="Contents" title="Cyberium Timeline">
-<pre>&lt;div class=&quot;tc-table-of-contents&quot;&gt;
-&lt;&lt;toc 'Cyberium Timeline' sort[date]&gt;&gt;
-&lt;/div&gt;</pre>
+<div created="20201129203628310" modified="20201129203628310" title="Cyberium Junkie">
+<pre></pre>
+</div>
+<div created="20201129204356317" modified="20201129204356317" title="Cyberium Reliance">
+<pre></pre>
+</div>
+<div created="20201129184110061" modified="20201129202245035" tags="Contents" title="Cyberium Timeline">
+<pre>&lt;&lt;toc-tabbed-internal-nav 'Cyberium Timeline' &quot;sort[date]&quot;&gt;&gt;</pre>
+</div>
+<div created="20201129203628316" modified="20201129203628316" title="FENSEC">
+<pre></pre>
 </div>
 <div created="20201129165215027" modified="20201129165215027" title="Fenster Technologies">
 <pre></pre>
 </div>
-<div created="20201129184110061" modified="20201129184338346" tags="" title="New Tiddler">
-<pre>&lt;$macrocall
-	$name=&quot;toc-tabbed-internal-nav&quot;
-	tag=&quot;Cyberium Timeline&quot;
-	selectedTiddler=&quot;$:/temp/toc/selectedTiddler&quot;
-	unselectedText=&quot;&lt;p&gt;Select a topic in the table of contents. Click the arrow to expand a topic.&lt;/p&gt;&quot;
-	missingText=&quot;&lt;p&gt;Missing tiddler.&lt;/p&gt;&quot;
-/&gt;</pre>
+<div created="20201129203628324" modified="20201129203628324" title="Genetic Burnout">
+<pre></pre>
+</div>
+<div created="20201129203628320" modified="20201129203628321" title="Genetic Fatigue">
+<pre></pre>
+</div>
+<div created="20201129202752837" modified="20201129202752837" title="Greyson's Bank">
+<pre></pre>
+</div>
+<div created="20201129202752831" modified="20201129202752831" title="Henry Greyson">
+<pre></pre>
 </div>
 <div created="20200715140941597" modified="20201101000432793" tags="" title="Overview">
 <pre>{{!!title||BackgroundImage}}</pre>
+</div>
+<div created="20201129203750906" modified="20201129203750907" title="World Government">
+<pre></pre>
 </div>
 
 
