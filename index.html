@@ -12993,8 +12993,8 @@ exports.context = contextWidget;
 <div created="20200713093121833" modified="20200718224151070" title="$:/state/tab-1528275152">
 <pre>$:/core/ui/DefaultSearchResultList</pre>
 </div>
-<div created="20200712195055819" modified="20201130213443900" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Appearance</pre>
+<div created="20200712195055819" modified="20210415101600875" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Saving</pre>
 </div>
 <div created="20200713110146227" modified="20201130202716915" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
@@ -13104,7 +13104,7 @@ exports.context = contextWidget;
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20201206155541255" list="Overview Contents" modified="20201206161506178" title="$:/StoryList">
+<div created="20210415100841979" list="Overview Contents" modified="20210415101558812" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200519141000553" list="$:/.giffmex/Buttons/more-tiddler-edit-actions $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200521145647980" tags="$:/giffmex/bigeditarea $:/giffmex/stroll" title="$:/tags/EditToolbar">
@@ -13167,11 +13167,11 @@ exports.context = contextWidget;
         },
         &quot;$:/info/browser/screen/width&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/width&quot;,
-            &quot;text&quot;: &quot;360&quot;
+            &quot;text&quot;: &quot;1920&quot;
         },
         &quot;$:/info/browser/screen/height&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/height&quot;,
-            &quot;text&quot;: &quot;640&quot;
+            &quot;text&quot;: &quot;1080&quot;
         },
         &quot;$:/info/browser/language&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/language&quot;,
@@ -14444,12 +14444,17 @@ Current status is unknown.</pre>
 &lt;&lt;toc-selective-expandable 'Organization' sort[title]&gt;&gt;
 &lt;/div&gt;</pre>
 </div>
-<div created="20200715140941597" modified="20201201121649460" tags="" title="Overview">
+<div created="20200715140941597" modified="20210415101555816" tags="" title="Overview">
 <pre>{{!!title||BackgroundImage}}
 
-!''Timeline''
+&lt;$button class=&quot;tc-btn-invisible&quot; popup=&lt;&lt;qualify &quot;$:/temp/popup&quot;&gt;&gt;&gt;
+
+!''Timeline (click to expand)''
 ---
-{{Cyberium Timeline}}</pre>
+&lt;/$button&gt;
+&lt;$reveal type=&quot;nomatch&quot; state=&lt;&lt;qualify &quot;$:/temp/popup&quot;&gt;&gt; text=&quot;&quot;&gt;
+{{Cyberium Timeline}}
+&lt;/$reveal&gt;</pre>
 </div>
 <div created="20201130222323418" modified="20201130222334292" tags="Contents" title="Technology">
 <pre>&lt;div class=&quot;tc-table-of-contents&quot;&gt;
